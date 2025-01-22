@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafetería Mary</title>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#bienvenida">Inicio</a></li>
+            <li><a href="#descripcion">Descripción</a></li>
+            <li><a href="#vision">Visión</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#promocion">Promoción</a></li>
+            <li><a href="#horarios">Horarios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="bienvenida">Bienvenido a la Cafetería Mary</h1>
+    <img src="logopagina.jpg" alt="Logotipo de la cafetería Mary" width="400">
+    <p>La mejor cafetería de la ciudad donde siempre encontrarás:</p>
+    
+    <h2 id="descripcion">Descripción de la empresa</h2>
+    <p>Es la cafetería de la escuela diseñada para ofrecer a los estudiantes un espacio acogedor y nutritivo donde puedan disfrutar de comidas y refrigerios saludables durante su jornada escolar. Nuestro objetivo es promover hábitos alimenticios equilibrados y proporcionar un lugar para socializar y relajarse entre clases.</p>
+    
+    <ul>
+        <li>Café recién hecho</li>
+        <li>Deliciosos postres caseros</li>
+        <li>Un ambiente acogedor</li>
+        <li>Comida deliciosa</li>
+    </ul>
+
+    <h2 id="vision">Visión</h2>
+    <p>Un espacio vibrante y acogedor donde los estudiantes puedan disfrutar de una alimentación saludable y equilibrada. Nos impregnamos como un lugar de encuentro que fomente la conexión y el bienestar, compensando la falta de recreo al ofrecer un ambiente donde los estudiantes puedan relajarse, socializar y disfrutar de momentos de tranquilidad y alegría en su jornada escolar.</p>
+
+    <h2 id="menu">Menú</h2>
+    <table border="1">
+        <tr>
+            <th>#</th>
+            <th>Precio</th>
+            <th>Menú</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>$25</td>
+            <td>Café</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>$20</td>
+            <td>Té</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>$35</td>
+            <td>Capuchino</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>$40</td>
+            <td>Pastel</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>$20</td>
+            <td>Arroz</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>$35</td>
+            <td>Sopes</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>$40</td>
+            <td>Mixta</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>$20</td>
+            <td>Tacos dorados</td>
+        </tr>
+    </table>
+
+    <h3 id="promocion">¡Nuestros tacos en promoción!</h3>
+    <video controls poster="fototacos.jpeg">
+        <source src="tacosdorados.mp4" type="video/mp4">
+        Tu navegador no soporta el video HTML5.
+    </video>
+
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="lunestacosdorados.mp3" type="audio/mpeg">
+        Tu navegador no soporta el audio HTML5.
+    </audio>
+
+    <h2 id="horarios">Horarios</h2>
+    <p>Abrimos todos los días de 7:00 AM a 2:00 PM.</p>
+    <hr>
+
+    <h2>Nuestra página de Facebook</h2>
+    <a href="https://www.facebook.com/profile.php?id=61569279684486&sfnsn=scwspwa&mibextid=RUbZ1f" target="_blank">Facebook</a>
+    <hr>
+
+    <address>Ubicación: En la universidad Politécnica</address>
+
+    <h2 id="contacto">Contacto</h2>
+    <form action="enviar_contacto.php" method="POST">
+        <label for="nombre">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+
+    <footer>
+        <p>Programación Web - UPLC 2025</p>
+    </footer>
+</body>
+</html>
